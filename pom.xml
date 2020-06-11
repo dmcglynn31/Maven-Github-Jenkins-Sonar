@@ -29,6 +29,11 @@
 			<scope>test</scope>
 		</dependency>
 		<!-- end::junit[] -->
+		<dependency>
+			<groupId>org.springframework.ws</groupId>
+			<artifactId>spring-ws-support</artifactId>
+			<version>2.2.0.RELEASE</version>
+    	</dependency>
 	</dependencies>
 
 	<build>
