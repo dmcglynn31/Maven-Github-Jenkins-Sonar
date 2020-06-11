@@ -1,0 +1,1019 @@
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+Maven home: C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\apache-maven-3.6.3\bin\..
+Java version: 1.8.0_41, vendor: Oracle Corporation, runtime: C:\Users\daniel.f.mcglynn\openJDK8\java-se-8u41-ri\jre
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 8.1", version: "6.3", arch: "x86", family: "windows"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\apache-maven-3.6.3\bin\..\conf\settings.xml
+[DEBUG] Reading user settings from C:\WINDOWS\system32\config\systemprofile\.m2\settings.xml
+[DEBUG] Reading global toolchains from C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\apache-maven-3.6.3\bin\..\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\WINDOWS\system32\config\systemprofile\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\WINDOWS\system32\config\systemprofile\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\WINDOWS\system32\config\systemprofile\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project org.springframework:gs-maven:jar:0.1.0: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: org.springframework:gs-maven:jar:0.1.0
+[DEBUG] Tasks:   [clean, package, install]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] --------------------< org.springframework:gs-maven >--------------------
+[INFO] Building gs-maven 0.1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+keyStore is : 
+keyStore type is : jks
+keyStore provider is : 
+init keystore
+init keymanager of type SunX509
+trustStore is: \Users\daniel.f.mcglynn\openJDK8\java-se-8u41-ri\jre\lib\security\cacerts
+trustStore type is : jks
+trustStore provider is : 
+init truststore
+trigger seeding of SecureRandom
+done seeding SecureRandom
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for https://repo.maven.apache.org/maven2
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for https://repo.maven.apache.org/maven2
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+Ignoring unavailable cipher suite: TLS_DHE_DSS_WITH_AES_256_GCM_SHA384
+Ignoring unavailable cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA
+Ignoring unavailable cipher suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384
+Ignoring unavailable cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
+Ignoring unavailable cipher suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+Ignoring unavailable cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA256
+Ignoring unavailable cipher suite: TLS_DHE_DSS_WITH_AES_256_CBC_SHA
+Ignoring unavailable cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
+Ignoring unavailable cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
+Ignoring unavailable cipher suite: TLS_RSA_WITH_AES_256_GCM_SHA384
+Ignoring unavailable cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
+Ignoring unavailable cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+Ignoring unavailable cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
+Ignoring unavailable cipher suite: TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
+Ignoring unavailable cipher suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384
+Ignoring unavailable cipher suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256
+Ignoring unavailable cipher suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+Ignoring unavailable cipher suite: TLS_DHE_DSS_WITH_AES_256_CBC_SHA256
+Ignoring unavailable cipher suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA
+Ignoring unavailable cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+Ignoring unavailable cipher suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+Allow unsafe renegotiation: false
+Allow legacy hello messages: true
+Is initial handshake: true
+Is secure renegotiation: false
+Ignoring unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_RSA_WITH_AES_128_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_DHE_DSS_WITH_AES_128_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_RSA_WITH_AES_128_CBC_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_DHE_DSS_WITH_AES_128_CBC_SHA256 for TLSv1.1
+%% No cached client session
+*** ClientHello, TLSv1.2
+RandomCookie:  GMT: 1575002356 bytes = { 147, 109, 222, 130, 106, 42, 70, 177, 9, 188, 221, 234, 83, 139, 221, 108, 38, 229, 152, 154, 23, 210, 144, 101, 187, 186, 136, 133 }
+Session ID:  {}
+Cipher Suites: [TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Compression Methods:  { 0 }
+Extension elliptic_curves, curve names: {secp256r1, sect163k1, sect163r2, secp192r1, secp224r1, sect233k1, sect233r1, sect283k1, sect283r1, secp384r1, sect409k1, sect409r1, secp521r1, sect571k1, sect571r1, secp160k1, secp160r1, secp160r2, sect163r1, secp192k1, sect193r1, sect193r2, secp224k1, sect239k1, secp256k1}
+Extension ec_point_formats, formats: [uncompressed]
+Extension signature_algorithms, signature_algorithms: SHA512withECDSA, SHA512withRSA, SHA384withECDSA, SHA384withRSA, SHA256withECDSA, SHA256withRSA, SHA224withECDSA, SHA224withRSA, SHA1withECDSA, SHA1withRSA, SHA1withDSA, MD5withRSA
+Extension server_name, server_name: [type=host_name (0), value=repo.maven.apache.org]
+***
+[write] MD5 and SHA1 hashes:  len = 211
+0000: 01 00 00 CF 03 03 5E E1   A1 F4 93 6D DE 82 6A 2A  ......^....m..j*
+0010: 46 B1 09 BC DD EA 53 8B   DD 6C 26 E5 98 9A 17 D2  F.....S..l&.....
+0020: 90 65 BB BA 88 85 00 00   2C C0 23 C0 27 00 3C C0  .e......,.#.'.<.
+0030: 25 C0 29 00 67 00 40 C0   09 C0 13 00 2F C0 04 C0  %.).g.@...../...
+0040: 0E 00 33 00 32 C0 2B C0   2F 00 9C C0 2D C0 31 00  ..3.2.+./...-.1.
+0050: 9E 00 A2 00 FF 01 00 00   7A 00 0A 00 34 00 32 00  ........z...4.2.
+0060: 17 00 01 00 03 00 13 00   15 00 06 00 07 00 09 00  ................
+0070: 0A 00 18 00 0B 00 0C 00   19 00 0D 00 0E 00 0F 00  ................
+0080: 10 00 11 00 02 00 12 00   04 00 05 00 14 00 08 00  ................
+0090: 16 00 0B 00 02 01 00 00   0D 00 1A 00 18 06 03 06  ................
+00A0: 01 05 03 05 01 04 03 04   01 03 03 03 01 02 03 02  ................
+00B0: 01 02 02 01 01 00 00 00   1A 00 18 00 00 15 72 65  ..............re
+00C0: 70 6F 2E 6D 61 76 65 6E   2E 61 70 61 63 68 65 2E  po.maven.apache.
+00D0: 6F 72 67                                           org
+main, WRITE: TLSv1.2 Handshake, length = 211
+[Raw write]: length = 216
+0000: 16 03 03 00 D3 01 00 00   CF 03 03 5E E1 A1 F4 93  ...........^....
+0010: 6D DE 82 6A 2A 46 B1 09   BC DD EA 53 8B DD 6C 26  m..j*F.....S..l&
+0020: E5 98 9A 17 D2 90 65 BB   BA 88 85 00 00 2C C0 23  ......e......,.#
+0030: C0 27 00 3C C0 25 C0 29   00 67 00 40 C0 09 C0 13  .'.<.%.).g.@....
+0040: 00 2F C0 04 C0 0E 00 33   00 32 C0 2B C0 2F 00 9C  ./.....3.2.+./..
+0050: C0 2D C0 31 00 9E 00 A2   00 FF 01 00 00 7A 00 0A  .-.1.........z..
+0060: 00 34 00 32 00 17 00 01   00 03 00 13 00 15 00 06  .4.2............
+0070: 00 07 00 09 00 0A 00 18   00 0B 00 0C 00 19 00 0D  ................
+0080: 00 0E 00 0F 00 10 00 11   00 02 00 12 00 04 00 05  ................
+0090: 00 14 00 08 00 16 00 0B   00 02 01 00 00 0D 00 1A  ................
+00A0: 00 18 06 03 06 01 05 03   05 01 04 03 04 01 03 03  ................
+00B0: 03 01 02 03 02 01 02 02   01 01 00 00 00 1A 00 18  ................
+00C0: 00 00 15 72 65 70 6F 2E   6D 61 76 65 6E 2E 61 70  ...repo.maven.ap
+00D0: 61 63 68 65 2E 6F 72 67                            ache.org
+[Raw read]: length = 5
+0000: 16 03 03 00 5D                                     ....]
+[Raw read]: length = 93
+0000: 02 00 00 59 03 03 02 90   AE BA AF 56 0F 2E 5B 81  ...Y.......V..[.
+0010: C0 B0 A5 9A 43 4C 8B A4   56 AF 2E 7C 2D 60 C8 EA  ....CL..V...-`..
+0020: 7F AF F9 F1 11 FF 20 F1   A5 C0 F4 BF 9B 07 31 7C  ...... .......1.
+0030: C8 1C 9C C7 EF 0A 0A 1C   47 93 A2 57 37 D2 23 7D  ........G..W7.#.
+0040: 8E 0A BE F5 49 8B 65 C0   2F 00 00 11 FF 01 00 01  ....I.e./.......
+0050: 00 00 00 00 00 00 0B 00   04 03 00 01 02           .............
+main, READ: TLSv1.2 Handshake, length = 93
+*** ServerHello, TLSv1.2
+RandomCookie:  GMT: 26193338 bytes = { 175, 86, 15, 46, 91, 129, 192, 176, 165, 154, 67, 76, 139, 164, 86, 175, 46, 124, 45, 96, 200, 234, 127, 175, 249, 241, 17, 255 }
+Session ID:  {241, 165, 192, 244, 191, 155, 7, 49, 124, 200, 28, 156, 199, 239, 10, 10, 28, 71, 147, 162, 87, 55, 210, 35, 125, 142, 10, 190, 245, 73, 139, 101}
+Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+Compression Method: 0
+Extension renegotiation_info, renegotiated_connection: <empty>
+Extension server_name, server_name: 
+Extension ec_point_formats, formats: [uncompressed, ansiX962_compressed_prime, ansiX962_compressed_char2]
+***
+%% Initialized:  [Session-1, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256]
+** TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[read] MD5 and SHA1 hashes:  len = 93
+0000: 02 00 00 59 03 03 02 90   AE BA AF 56 0F 2E 5B 81  ...Y.......V..[.
+0010: C0 B0 A5 9A 43 4C 8B A4   56 AF 2E 7C 2D 60 C8 EA  ....CL..V...-`..
+0020: 7F AF F9 F1 11 FF 20 F1   A5 C0 F4 BF 9B 07 31 7C  ...... .......1.
+0030: C8 1C 9C C7 EF 0A 0A 1C   47 93 A2 57 37 D2 23 7D  ........G..W7.#.
+0040: 8E 0A BE F5 49 8B 65 C0   2F 00 00 11 FF 01 00 01  ....I.e./.......
+0050: 00 00 00 00 00 00 0B 00   04 03 00 01 02           .............
+[Raw read]: length = 5
+0000: 16 03 03 09 C1                                     .....
+[Raw read]: length = 2497
+0000: 0B 00 09 BD 00 09 BA 00   05 1C 30 82 05 18 30 82  ..........0...0.
+0010: 04 00 A0 03 02 01 02 02   10 0B D6 B7 C9 26 59 CE  .............&Y.
+0020: 9C CF 8F 09 D3 29 61 4A   60 30 0D 06 09 2A 86 48  .....)aJ`0...*.H
+0030: 86 F7 0D 01 01 0B 05 00   30 4D 31 0B 30 09 06 03  ........0M1.0...
+0040: 55 04 06 13 02 55 53 31   15 30 13 06 03 55 04 0A  U....US1.0...U..
+0050: 13 0C 44 69 67 69 43 65   72 74 20 49 6E 63 31 27  ..DigiCert Inc1'
+0060: 30 25 06 03 55 04 03 13   1E 44 69 67 69 43 65 72  0%..U....DigiCer
+0070: 74 20 53 48 41 32 20 53   65 63 75 72 65 20 53 65  t SHA2 Secure Se
+0080: 72 76 65 72 20 43 41 30   1E 17 0D 31 37 30 37 31  rver CA0...17071
+0090: 39 30 30 30 30 30 30 5A   17 0D 32 30 30 39 30 33  9000000Z..200903
+00A0: 31 32 30 30 30 30 5A 30   63 31 0B 30 09 06 03 55  120000Z0c1.0...U
+00B0: 04 06 13 02 55 53 31 0B   30 09 06 03 55 04 08 13  ....US1.0...U...
+00C0: 02 4D 44 31 0F 30 0D 06   03 55 04 07 13 06 46 75  .MD1.0...U....Fu
+00D0: 6C 74 6F 6E 31 16 30 14   06 03 55 04 0A 13 0D 53  lton1.0...U....S
+00E0: 6F 6E 61 74 79 70 65 2C   20 49 6E 63 31 1E 30 1C  onatype, Inc1.0.
+00F0: 06 03 55 04 03 13 15 72   65 70 6F 2E 6D 61 76 65  ..U....repo.mave
+0100: 6E 2E 61 70 61 63 68 65   2E 6F 72 67 30 82 01 22  n.apache.org0.."
+0110: 30 0D 06 09 2A 86 48 86   F7 0D 01 01 01 05 00 03  0...*.H.........
+0120: 82 01 0F 00 30 82 01 0A   02 82 01 01 00 C5 1B 63  ....0..........c
+0130: FF 24 31 01 91 B8 00 56   49 28 92 5F A0 E3 0F 9C  .$1....VI(._....
+0140: 43 B3 02 73 56 3F E5 E8   84 E6 AA D5 0D 32 6A 9C  C..sV?.......2j.
+0150: EE 65 F2 B9 91 5F 9A 0B   3A 24 CE B0 24 B6 40 36  .e..._..:$..$.@6
+0160: 30 18 C9 F8 6E D6 FF 6D   88 DE B1 ED FE CC B3 DB  0...n..m........
+0170: 47 AB C1 1E A0 72 34 55   54 EC D3 6D 85 85 ED DA  G....r4UT..m....
+0180: C0 DD 90 3D 99 EF 91 F1   CC 64 4D 28 A7 45 CB 4D  ...=.....dM(.E.M
+0190: D7 E9 97 C8 85 DC 94 6A   0D 3D F7 DA 38 7F 79 92  .......j.=..8.y.
+01A0: 0B EC 5F 9C 24 67 2E 9E   02 65 DF B7 39 C1 9D 02  .._.$g...e..9...
+01B0: 7D D0 25 CB B9 6D 7F 09   D0 32 8D 7B 47 13 49 00  ..%..m...2..G.I.
+01C0: 34 D4 3C 0A EC EB 32 B7   A2 A3 52 1D 5F E2 DF 2D  4.<...2...R._..-
+01D0: 28 9C 5D AD 8D 10 52 99   13 F1 9A B7 33 F9 05 BD  (.]...R.....3...
+01E0: 6A 30 56 EE C7 3E AF 9E   5E 66 37 62 2A 78 EF 46  j0V..>..^f7b*x.F
+01F0: 3D 05 C4 8C FB FE 3E 69   58 51 2B 93 CB CE 89 18  =.....>iXQ+.....
+0200: 8C 9D 9D B7 7A BA 00 BC   9E B4 DA 7D AB 6C 21 07  ....z........l!.
+0210: 29 F7 78 6E E9 5B DB F6   6A 5F 70 B6 12 13 75 12  ).xn.[..j_p...u.
+0220: 13 7A B1 67 1F 94 64 9A   C0 DF 85 1D BD 02 03 01  .z.g..d.........
+0230: 00 01 A3 82 01 DC 30 82   01 D8 30 1F 06 03 55 1D  ......0...0...U.
+0240: 23 04 18 30 16 80 14 0F   80 61 1C 82 31 61 D5 2F  #..0.....a..1a./
+0250: 28 E7 8D 46 38 B4 2C E1   C6 D9 E2 30 1D 06 03 55  (..F8.,....0...U
+0260: 1D 0E 04 16 04 14 A1 3D   8D B0 09 96 22 AB F5 00  .......=...."...
+0270: A6 AE 13 66 2E AD 77 B0   9F 30 30 20 06 03 55 1D  ...f..w..00 ..U.
+0280: 11 04 19 30 17 82 15 72   65 70 6F 2E 6D 61 76 65  ...0...repo.mave
+0290: 6E 2E 61 70 61 63 68 65   2E 6F 72 67 30 0E 06 03  n.apache.org0...
+02A0: 55 1D 0F 01 01 FF 04 04   03 02 05 A0 30 1D 06 03  U...........0...
+02B0: 55 1D 25 04 16 30 14 06   08 2B 06 01 05 05 07 03  U.%..0...+......
+02C0: 01 06 08 2B 06 01 05 05   07 03 02 30 6B 06 03 55  ...+.......0k..U
+02D0: 1D 1F 04 64 30 62 30 2F   A0 2D A0 2B 86 29 68 74  ...d0b0/.-.+.)ht
+02E0: 74 70 3A 2F 2F 63 72 6C   33 2E 64 69 67 69 63 65  tp://crl3.digice
+02F0: 72 74 2E 63 6F 6D 2F 73   73 63 61 2D 73 68 61 32  rt.com/ssca-sha2
+0300: 2D 67 31 2E 63 72 6C 30   2F A0 2D A0 2B 86 29 68  -g1.crl0/.-.+.)h
+0310: 74 74 70 3A 2F 2F 63 72   6C 34 2E 64 69 67 69 63  ttp://crl4.digic
+0320: 65 72 74 2E 63 6F 6D 2F   73 73 63 61 2D 73 68 61  ert.com/ssca-sha
+0330: 32 2D 67 31 2E 63 72 6C   30 4C 06 03 55 1D 20 04  2-g1.crl0L..U. .
+0340: 45 30 43 30 37 06 09 60   86 48 01 86 FD 6C 01 01  E0C07..`.H...l..
+0350: 30 2A 30 28 06 08 2B 06   01 05 05 07 02 01 16 1C  0*0(..+.........
+0360: 68 74 74 70 73 3A 2F 2F   77 77 77 2E 64 69 67 69  https://www.digi
+0370: 63 65 72 74 2E 63 6F 6D   2F 43 50 53 30 08 06 06  cert.com/CPS0...
+0380: 67 81 0C 01 02 02 30 7C   06 08 2B 06 01 05 05 07  g.....0...+.....
+0390: 01 01 04 70 30 6E 30 24   06 08 2B 06 01 05 05 07  ...p0n0$..+.....
+03A0: 30 01 86 18 68 74 74 70   3A 2F 2F 6F 63 73 70 2E  0...http://ocsp.
+03B0: 64 69 67 69 63 65 72 74   2E 63 6F 6D 30 46 06 08  digicert.com0F..
+03C0: 2B 06 01 05 05 07 30 02   86 3A 68 74 74 70 3A 2F  +.....0..:http:/
+03D0: 2F 63 61 63 65 72 74 73   2E 64 69 67 69 63 65 72  /cacerts.digicer
+03E0: 74 2E 63 6F 6D 2F 44 69   67 69 43 65 72 74 53 48  t.com/DigiCertSH
+03F0: 41 32 53 65 63 75 72 65   53 65 72 76 65 72 43 41  A2SecureServerCA
+0400: 2E 63 72 74 30 0C 06 03   55 1D 13 01 01 FF 04 02  .crt0...U.......
+0410: 30 00 30 0D 06 09 2A 86   48 86 F7 0D 01 01 0B 05  0.0...*.H.......
+0420: 00 03 82 01 01 00 BF E3   79 86 D4 D9 6A 9A 6E B3  ........y...j.n.
+0430: 6C 22 E1 00 87 69 91 3B   C2 D3 E6 1A C8 E7 1A 54  l"...i.;.......T
+0440: F6 F5 A4 DD 87 54 14 A3   C6 06 E7 8C 0C 1F AC 36  .....T.........6
+0450: F1 71 2B 58 BA C0 1F 6C   CB F8 C5 EA 29 9A 52 2A  .q+X...l....).R*
+0460: 97 3F 0D F8 2B FC AA 6E   8A 50 12 86 0E 90 A7 EE  .?..+..n.P......
+0470: AF B6 EF AD FC 1E 83 F4   06 C2 E5 11 22 56 26 3A  ............"V&:
+0480: 93 81 0E 0F 95 0A 29 0E   31 0B 83 9D 32 CA 69 9E  ......).1...2.i.
+0490: 6C 3F 0E D7 37 70 F4 E8   97 D8 09 BB CC 7E CE 23  l?..7p.........#
+04A0: 35 08 FA A0 96 46 DC F2   40 E9 23 B0 F9 62 9E 35  5....F..@.#..b.5
+04B0: F6 C4 9B AE 1B 48 17 C7   CC F2 BC 96 07 5E D7 C5  .....H.......^..
+04C0: 31 6A FF A6 A3 E1 DA D0   D3 94 4C 0E F6 83 B6 B8  1j........L.....
+04D0: B3 24 41 25 EC 1B 7B CA   F7 CD 90 AA CA F9 CD A8  .$A%............
+04E0: 7D 45 09 73 52 BB 19 5D   19 C6 AE 5A C8 3A C0 D7  .E.sR..]...Z.:..
+04F0: D4 85 FA C8 8A FA 21 49   84 CA 03 B5 A2 DE 5D 24  ......!I......]$
+0500: 60 0B 4D D7 03 8D 93 6A   EE C3 A2 CF 11 7A 0F D6  `.M....j.....z..
+0510: D3 74 8E AD A2 4A 0C 59   E0 45 5E 2F E4 72 46 C4  .t...J.Y.E^/.rF.
+0520: 9E FA 7C FA 84 0C 00 04   98 30 82 04 94 30 82 03  .........0...0..
+0530: 7C A0 03 02 01 02 02 10   01 FD A3 EB 6E CA 75 C8  ............n.u.
+0540: 88 43 8B 72 4B CF BC 91   30 0D 06 09 2A 86 48 86  .C.rK...0...*.H.
+0550: F7 0D 01 01 0B 05 00 30   61 31 0B 30 09 06 03 55  .......0a1.0...U
+0560: 04 06 13 02 55 53 31 15   30 13 06 03 55 04 0A 13  ....US1.0...U...
+0570: 0C 44 69 67 69 43 65 72   74 20 49 6E 63 31 19 30  .DigiCert Inc1.0
+0580: 17 06 03 55 04 0B 13 10   77 77 77 2E 64 69 67 69  ...U....www.digi
+0590: 63 65 72 74 2E 63 6F 6D   31 20 30 1E 06 03 55 04  cert.com1 0...U.
+05A0: 03 13 17 44 69 67 69 43   65 72 74 20 47 6C 6F 62  ...DigiCert Glob
+05B0: 61 6C 20 52 6F 6F 74 20   43 41 30 1E 17 0D 31 33  al Root CA0...13
+05C0: 30 33 30 38 31 32 30 30   30 30 5A 17 0D 32 33 30  0308120000Z..230
+05D0: 33 30 38 31 32 30 30 30   30 5A 30 4D 31 0B 30 09  308120000Z0M1.0.
+05E0: 06 03 55 04 06 13 02 55   53 31 15 30 13 06 03 55  ..U....US1.0...U
+05F0: 04 0A 13 0C 44 69 67 69   43 65 72 74 20 49 6E 63  ....DigiCert Inc
+0600: 31 27 30 25 06 03 55 04   03 13 1E 44 69 67 69 43  1'0%..U....DigiC
+0610: 65 72 74 20 53 48 41 32   20 53 65 63 75 72 65 20  ert SHA2 Secure 
+0620: 53 65 72 76 65 72 20 43   41 30 82 01 22 30 0D 06  Server CA0.."0..
+0630: 09 2A 86 48 86 F7 0D 01   01 01 05 00 03 82 01 0F  .*.H............
+0640: 00 30 82 01 0A 02 82 01   01 00 DC AE 58 90 4D C1  .0..........X.M.
+0650: C4 30 15 90 35 5B 6E 3C   82 15 F5 2C 5C BD E3 DB  .0..5[n<...,\...
+0660: FF 71 43 FA 64 25 80 D4   EE 18 A2 4D F0 66 D0 0A  .qC.d%.....M.f..
+0670: 73 6E 11 98 36 17 64 AF   37 9D FD FA 41 84 AF C7  sn..6.d.7...A...
+0680: AF 8C FE 1A 73 4D CF 33   97 90 A2 96 87 53 83 2B  ....sM.3.....S.+
+0690: B9 A6 75 48 2D 1D 56 37   7B DA 31 32 1A D7 AC AB  ..uH-.V7..12....
+06A0: 06 F4 AA 5D 4B B7 47 46   DD 2A 93 C3 90 2E 79 80  ...]K.GF.*....y.
+06B0: 80 EF 13 04 6A 14 3B B5   9B 92 BE C2 07 65 4E FC  ....j.;......eN.
+06C0: DA FC FF 7A AE DC 5C 7E   55 31 0C E8 39 07 A4 D7  ...z..\.U1..9...
+06D0: BE 2F D3 0B 6A D2 B1 DF   5F FE 57 74 53 3B 35 80  ./..j..._.WtS;5.
+06E0: DD AE 8E 44 98 B3 9F 0E   D3 DA E0 D7 F4 6B 29 AB  ...D.........k).
+06F0: 44 A7 4B 58 84 6D 92 4B   81 C3 DA 73 8B 12 97 48  D.KX.m.K...s...H
+0700: 90 04 45 75 1A DD 37 31   97 92 E8 CD 54 0D 3B E4  ..Eu..71....T.;.
+0710: C1 3F 39 5E 2E B8 F3 5C   7E 10 8E 86 41 00 8D 45  .?9^...\....A..E
+0720: 66 47 B0 A1 65 CE A0 AA   29 09 4E F3 97 EB E8 2E  fG..e...).N.....
+0730: AB 0F 72 A7 30 0E FA C7   F4 FD 14 77 C3 A4 5B 28  ..r.0......w..[(
+0740: 57 C2 B3 F9 82 FD B7 45   58 9B 02 03 01 00 01 A3  W......EX.......
+0750: 82 01 5A 30 82 01 56 30   12 06 03 55 1D 13 01 01  ..Z0..V0...U....
+0760: FF 04 08 30 06 01 01 FF   02 01 00 30 0E 06 03 55  ...0.......0...U
+0770: 1D 0F 01 01 FF 04 04 03   02 01 86 30 34 06 08 2B  ...........04..+
+0780: 06 01 05 05 07 01 01 04   28 30 26 30 24 06 08 2B  ........(0&0$..+
+0790: 06 01 05 05 07 30 01 86   18 68 74 74 70 3A 2F 2F  .....0...http://
+07A0: 6F 63 73 70 2E 64 69 67   69 63 65 72 74 2E 63 6F  ocsp.digicert.co
+07B0: 6D 30 7B 06 03 55 1D 1F   04 74 30 72 30 37 A0 35  m0...U...t0r07.5
+07C0: A0 33 86 31 68 74 74 70   3A 2F 2F 63 72 6C 33 2E  .3.1http://crl3.
+07D0: 64 69 67 69 63 65 72 74   2E 63 6F 6D 2F 44 69 67  digicert.com/Dig
+07E0: 69 43 65 72 74 47 6C 6F   62 61 6C 52 6F 6F 74 43  iCertGlobalRootC
+07F0: 41 2E 63 72 6C 30 37 A0   35 A0 33 86 31 68 74 74  A.crl07.5.3.1htt
+0800: 70 3A 2F 2F 63 72 6C 34   2E 64 69 67 69 63 65 72  p://crl4.digicer
+0810: 74 2E 63 6F 6D 2F 44 69   67 69 43 65 72 74 47 6C  t.com/DigiCertGl
+0820: 6F 62 61 6C 52 6F 6F 74   43 41 2E 63 72 6C 30 3D  obalRootCA.crl0=
+0830: 06 03 55 1D 20 04 36 30   34 30 32 06 04 55 1D 20  ..U. .60402..U. 
+0840: 00 30 2A 30 28 06 08 2B   06 01 05 05 07 02 01 16  .0*0(..+........
+0850: 1C 68 74 74 70 73 3A 2F   2F 77 77 77 2E 64 69 67  .https://www.dig
+0860: 69 63 65 72 74 2E 63 6F   6D 2F 43 50 53 30 1D 06  icert.com/CPS0..
+0870: 03 55 1D 0E 04 16 04 14   0F 80 61 1C 82 31 61 D5  .U........a..1a.
+0880: 2F 28 E7 8D 46 38 B4 2C   E1 C6 D9 E2 30 1F 06 03  /(..F8.,....0...
+0890: 55 1D 23 04 18 30 16 80   14 03 DE 50 35 56 D1 4C  U.#..0.....P5V.L
+08A0: BB 66 F0 A3 E2 1B 1B C3   97 B2 3D D1 55 30 0D 06  .f........=.U0..
+08B0: 09 2A 86 48 86 F7 0D 01   01 0B 05 00 03 82 01 01  .*.H............
+08C0: 00 23 3E DF 4B D2 31 42   A5 B6 7E 42 5C 1A 44 CC  .#>.K.1B...B\.D.
+08D0: 69 D1 68 B4 5D 4B E0 04   21 6C 4B E2 6D CC B1 E0  i.h.]K..!lK.m...
+08E0: 97 8F A6 53 09 CD AA 2A   65 E5 39 4F 1E 83 A5 6E  ...S...*e.9O...n
+08F0: 5C 98 A2 24 26 E6 FB A1   ED 93 C7 2E 02 C6 4D 4A  \..$&.........MJ
+0900: BF B0 42 DF 78 DA B3 A8   F9 6D FF 21 85 53 36 60  ..B.x....m.!.S6`
+0910: 4C 76 CE EC 38 DC D6 51   80 F0 C5 D6 E5 D4 4D 27  Lv..8..Q......M'
+0920: 64 AB 9B C7 3E 71 FB 48   97 B8 33 6D C9 13 07 EE  d...>q.H..3m....
+0930: 96 A2 1B 18 15 F6 5C 4C   40 ED B3 C2 EC FF 71 C1  ......\L@.....q.
+0940: E3 47 FF D4 B9 00 B4 37   42 DA 20 C9 EA 6E 8A EE  .G.....7B. ..n..
+0950: 14 06 AE 7D A2 59 98 88   A8 1B 6F 2D F4 F2 C9 14  .....Y....o-....
+0960: 5F 26 CF 2C 8D 7E ED 37   C0 A9 D5 39 B9 82 BF 19  _&.,...7...9....
+0970: 0C EA 34 AF 00 21 68 F8   AD 73 E2 C9 32 DA 38 25  ..4..!h..s..2.8%
+0980: 0B 55 D3 9A 1D F0 68 86   ED 2E 41 34 EF 7C A5 50  .U....h...A4...P
+0990: 1D BF 3A F9 D3 C1 08 0C   E6 ED 1E 8A 58 25 E4 B8  ..:.........X%..
+09A0: 77 AD 2D 6E F5 52 DD B4   74 8F AB 49 2E 9D 3B 93  w.-n.R..t..I..;.
+09B0: 34 28 1F 78 CE 94 EA C7   BD D3 C9 6D 1C DE 5C 32  4(.x.......m..\2
+09C0: F3                                                 .
+main, READ: TLSv1.2 Handshake, length = 2497
+*** Certificate chain
+chain [0] = [
+[
+  Version: V3
+  Subject: CN=repo.maven.apache.org, O="Sonatype, Inc", L=Fulton, ST=MD, C=US
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 24882452892446500514066245193992754629920214002531940860581507270712418750047380948418516798995360375200649891810681940931768209786793127769265700962961330543693227583690315907355180570447217220015751544825622050766945738093855360823929024279893733847979019786194600456142450386418461012562096283258988963946696037348482764243618606375378602446220120153320527304404063818517622842504164667464422404730751172051005466410839420176426126252562704379860854960595251159142389469282362431305882490112345735544476667895800250031119073595950323966854491504997754893469706427062269830988844819011829923131449735224295076208061
+  public exponent: 65537
+  Validity: [From: Tue Jul 18 19:00:00 CDT 2017,
+               To: Thu Sep 03 07:00:00 CDT 2020]
+  Issuer: CN=DigiCert SHA2 Secure Server CA, O=DigiCert Inc, C=US
+  SerialNumber: [    0bd6b7c9 2659ce9c cf8f09d3 29614a60]
+
+Certificate Extensions: 9
+[1]: ObjectId: 1.3.6.1.5.5.7.1.1 Criticality=false
+AuthorityInfoAccess [
+  [
+   accessMethod: ocsp
+   accessLocation: URIName: http://ocsp.digicert.com
+, 
+   accessMethod: caIssuers
+   accessLocation: URIName: http://cacerts.digicert.com/DigiCertSHA2SecureServerCA.crt
+]
+]
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 0F 80 61 1C 82 31 61 D5   2F 28 E7 8D 46 38 B4 2C  ..a..1a./(..F8.,
+0010: E1 C6 D9 E2                                        ....
+]
+]
+
+[3]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:false
+  PathLen: undefined
+]
+
+[4]: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://crl3.digicert.com/ssca-sha2-g1.crl]
+, DistributionPoint:
+     [URIName: http://crl4.digicert.com/ssca-sha2-g1.crl]
+]]
+
+[5]: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [2.16.840.1.114412.1.1]
+[PolicyQualifierInfo: [
+  qualifierID: 1.3.6.1.5.5.7.2.1
+  qualifier: 0000: 16 1C 68 74 74 70 73 3A   2F 2F 77 77 77 2E 64 69  ..https://www.di
+0010: 67 69 63 65 72 74 2E 63   6F 6D 2F 43 50 53        gicert.com/CPS
+
+]]  ]
+  [CertificatePolicyId: [2.23.140.1.2.2]
+[]  ]
+]
+
+[6]: ObjectId: 2.5.29.37 Criticality=false
+ExtendedKeyUsages [
+  serverAuth
+  clientAuth
+]
+
+[7]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_Encipherment
+]
+
+[8]: ObjectId: 2.5.29.17 Criticality=false
+SubjectAlternativeName [
+  DNSName: repo.maven.apache.org
+]
+
+[9]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: A1 3D 8D B0 09 96 22 AB   F5 00 A6 AE 13 66 2E AD  .=...."......f..
+0010: 77 B0 9F 30                                        w..0
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: BF E3 79 86 D4 D9 6A 9A   6E B3 6C 22 E1 00 87 69  ..y...j.n.l"...i
+0010: 91 3B C2 D3 E6 1A C8 E7   1A 54 F6 F5 A4 DD 87 54  .;.......T.....T
+0020: 14 A3 C6 06 E7 8C 0C 1F   AC 36 F1 71 2B 58 BA C0  .........6.q+X..
+0030: 1F 6C CB F8 C5 EA 29 9A   52 2A 97 3F 0D F8 2B FC  .l....).R*.?..+.
+0040: AA 6E 8A 50 12 86 0E 90   A7 EE AF B6 EF AD FC 1E  .n.P............
+0050: 83 F4 06 C2 E5 11 22 56   26 3A 93 81 0E 0F 95 0A  ......"V&:......
+0060: 29 0E 31 0B 83 9D 32 CA   69 9E 6C 3F 0E D7 37 70  ).1...2.i.l?..7p
+0070: F4 E8 97 D8 09 BB CC 7E   CE 23 35 08 FA A0 96 46  .........#5....F
+0080: DC F2 40 E9 23 B0 F9 62   9E 35 F6 C4 9B AE 1B 48  ..@.#..b.5.....H
+0090: 17 C7 CC F2 BC 96 07 5E   D7 C5 31 6A FF A6 A3 E1  .......^..1j....
+00A0: DA D0 D3 94 4C 0E F6 83   B6 B8 B3 24 41 25 EC 1B  ....L......$A%..
+00B0: 7B CA F7 CD 90 AA CA F9   CD A8 7D 45 09 73 52 BB  ...........E.sR.
+00C0: 19 5D 19 C6 AE 5A C8 3A   C0 D7 D4 85 FA C8 8A FA  .]...Z.:........
+00D0: 21 49 84 CA 03 B5 A2 DE   5D 24 60 0B 4D D7 03 8D  !I......]$`.M...
+00E0: 93 6A EE C3 A2 CF 11 7A   0F D6 D3 74 8E AD A2 4A  .j.....z...t...J
+00F0: 0C 59 E0 45 5E 2F E4 72   46 C4 9E FA 7C FA 84 0C  .Y.E^/.rF.......
+
+]
+chain [1] = [
+[
+  Version: V3
+  Subject: CN=DigiCert SHA2 Secure Server CA, O=DigiCert Inc, C=US
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 27858400285679723188777933283712642951289579686400775596360785472462618845441045591174031407467141927949303967273640603370583027943461489694611514307846044788608302737755893035638149922272068624160730850926560034092625156444445564936562297688651849223419070532331233030323585681010618165796464257277453762819678070632408347042070801988771058882131228632546107451893714991242153395658429259537934263208634002792828772169217510656239241005311075681025394047894661420520700962300445533960645787118986590875906485125942483622981513806162241672544997253865343228332025582679476240480384023017494305830194847248717881628827
+  public exponent: 65537
+  Validity: [From: Fri Mar 08 06:00:00 CST 2013,
+               To: Wed Mar 08 06:00:00 CST 2023]
+  Issuer: CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+  SerialNumber: [    01fda3eb 6eca75c8 88438b72 4bcfbc91]
+
+Certificate Extensions: 7
+[1]: ObjectId: 1.3.6.1.5.5.7.1.1 Criticality=false
+AuthorityInfoAccess [
+  [
+   accessMethod: ocsp
+   accessLocation: URIName: http://ocsp.digicert.com
+]
+]
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 03 DE 50 35 56 D1 4C BB   66 F0 A3 E2 1B 1B C3 97  ..P5V.L.f.......
+0010: B2 3D D1 55                                        .=.U
+]
+]
+
+[3]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:0
+]
+
+[4]: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://crl3.digicert.com/DigiCertGlobalRootCA.crl]
+, DistributionPoint:
+     [URIName: http://crl4.digicert.com/DigiCertGlobalRootCA.crl]
+]]
+
+[5]: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [2.5.29.32.0]
+[PolicyQualifierInfo: [
+  qualifierID: 1.3.6.1.5.5.7.2.1
+  qualifier: 0000: 16 1C 68 74 74 70 73 3A   2F 2F 77 77 77 2E 64 69  ..https://www.di
+0010: 67 69 63 65 72 74 2E 63   6F 6D 2F 43 50 53        gicert.com/CPS
+
+]]  ]
+]
+
+[6]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_CertSign
+  Crl_Sign
+]
+
+[7]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 0F 80 61 1C 82 31 61 D5   2F 28 E7 8D 46 38 B4 2C  ..a..1a./(..F8.,
+0010: E1 C6 D9 E2                                        ....
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: 23 3E DF 4B D2 31 42 A5   B6 7E 42 5C 1A 44 CC 69  #>.K.1B...B\.D.i
+0010: D1 68 B4 5D 4B E0 04 21   6C 4B E2 6D CC B1 E0 97  .h.]K..!lK.m....
+0020: 8F A6 53 09 CD AA 2A 65   E5 39 4F 1E 83 A5 6E 5C  ..S...*e.9O...n\
+0030: 98 A2 24 26 E6 FB A1 ED   93 C7 2E 02 C6 4D 4A BF  ..$&.........MJ.
+0040: B0 42 DF 78 DA B3 A8 F9   6D FF 21 85 53 36 60 4C  .B.x....m.!.S6`L
+0050: 76 CE EC 38 DC D6 51 80   F0 C5 D6 E5 D4 4D 27 64  v..8..Q......M'd
+0060: AB 9B C7 3E 71 FB 48 97   B8 33 6D C9 13 07 EE 96  ...>q.H..3m.....
+0070: A2 1B 18 15 F6 5C 4C 40   ED B3 C2 EC FF 71 C1 E3  .....\L@.....q..
+0080: 47 FF D4 B9 00 B4 37 42   DA 20 C9 EA 6E 8A EE 14  G.....7B. ..n...
+0090: 06 AE 7D A2 59 98 88 A8   1B 6F 2D F4 F2 C9 14 5F  ....Y....o-...._
+00A0: 26 CF 2C 8D 7E ED 37 C0   A9 D5 39 B9 82 BF 19 0C  &.,...7...9.....
+00B0: EA 34 AF 00 21 68 F8 AD   73 E2 C9 32 DA 38 25 0B  .4..!h..s..2.8%.
+00C0: 55 D3 9A 1D F0 68 86 ED   2E 41 34 EF 7C A5 50 1D  U....h...A4...P.
+00D0: BF 3A F9 D3 C1 08 0C E6   ED 1E 8A 58 25 E4 B8 77  .:.........X%..w
+00E0: AD 2D 6E F5 52 DD B4 74   8F AB 49 2E 9D 3B 93 34  .-n.R..t..I..;.4
+00F0: 28 1F 78 CE 94 EA C7 BD   D3 C9 6D 1C DE 5C 32 F3  (.x.......m..\2.
+
+]
+***
+main, handling exception: java.lang.RuntimeException: Unexpected error: java.security.InvalidAlgorithmParameterException: the trustAnchors parameter must be non-empty
+%% Invalidated:  [Session-1, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256]
+main, SEND TLSv1.2 ALERT:  fatal, description = internal_error
+main, WRITE: TLSv1.2 Alert, length = 2
+[Raw write]: length = 7
+0000: 15 03 03 00 02 02 50                               ......P
+main, called closeSocket()
+[DEBUG] Writing tracking file C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\maven\plugins\maven-clean-plugin\2.5\maven-clean-plugin-2.5.pom.lastUpdated
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.400 s
+[INFO] Finished at: 2020-06-10T22:16:04-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5: Could not transfer artifact org.apache.maven.plugins:maven-clean-plugin:pom:2.5 from/to central (https://repo.maven.apache.org/maven2): Transfer failed for https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom: java.lang.RuntimeException: Unexpected error: java.security.InvalidAlgorithmParameterException: the trustAnchors parameter must be non-empty -> [Help 1]
+org.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:120)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getPluginDescriptor (DefaultMavenPluginManager.java:182)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getMojoDescriptor (DefaultMavenPluginManager.java:286)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.getMojoDescriptor (DefaultBuildPluginManager.java:244)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.setupMojoExecution (DefaultLifecycleExecutionPlanCalculator.java:169)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.setupMojoExecutions (DefaultLifecycleExecutionPlanCalculator.java:154)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:130)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:144)
+    at org.apache.maven.lifecycle.internal.builder.BuilderCommon.resolveBuildPlan (BuilderCommon.java:97)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:111)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:497)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+Caused by: org.eclipse.aether.resolution.ArtifactDescriptorException: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:255)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:171)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.readArtifactDescriptor (DefaultRepositorySystem.java:255)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:106)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getPluginDescriptor (DefaultMavenPluginManager.java:182)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getMojoDescriptor (DefaultMavenPluginManager.java:286)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.getMojoDescriptor (DefaultBuildPluginManager.java:244)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.setupMojoExecution (DefaultLifecycleExecutionPlanCalculator.java:169)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.setupMojoExecutions (DefaultLifecycleExecutionPlanCalculator.java:154)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:130)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:144)
+    at org.apache.maven.lifecycle.internal.builder.BuilderCommon.resolveBuildPlan (BuilderCommon.java:97)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:111)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:497)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+Caused by: org.eclipse.aether.resolution.ArtifactResolutionException: Could not transfer artifact org.apache.maven.plugins:maven-clean-plugin:pom:2.5 from/to central (https://repo.maven.apache.org/maven2): Transfer failed for https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:424)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:229)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:207)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:240)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:171)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.readArtifactDescriptor (DefaultRepositorySystem.java:255)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:106)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getPluginDescriptor (DefaultMavenPluginManager.java:182)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getMojoDescriptor (DefaultMavenPluginManager.java:286)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.getMojoDescriptor (DefaultBuildPluginManager.java:244)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.setupMojoExecution (DefaultLifecycleExecutionPlanCalculator.java:169)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.setupMojoExecutions (DefaultLifecycleExecutionPlanCalculator.java:154)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:130)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:144)
+    at org.apache.maven.lifecycle.internal.builder.BuilderCommon.resolveBuildPlan (BuilderCommon.java:97)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:111)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:497)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Could not transfer artifact org.apache.maven.plugins:maven-clean-plugin:pom:2.5 from/to central (https://repo.maven.apache.org/maven2): Transfer failed for https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+    at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed (ArtifactTransportListener.java:52)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run (BasicRepositoryConnector.java:369)
+    at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run (RunnableErrorForwarder.java:75)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute (BasicRepositoryConnector.java:644)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get (BasicRepositoryConnector.java:262)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:499)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:401)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:229)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:207)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:240)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:171)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.readArtifactDescriptor (DefaultRepositorySystem.java:255)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:106)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getPluginDescriptor (DefaultMavenPluginManager.java:182)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getMojoDescriptor (DefaultMavenPluginManager.java:286)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.getMojoDescriptor (DefaultBuildPluginManager.java:244)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.setupMojoExecution (DefaultLifecycleExecutionPlanCalculator.java:169)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.setupMojoExecutions (DefaultLifecycleExecutionPlanCalculator.java:154)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:130)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:144)
+    at org.apache.maven.lifecycle.internal.builder.BuilderCommon.resolveBuildPlan (BuilderCommon.java:97)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:111)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:497)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+Caused by: org.apache.maven.wagon.TransferFailedException: Transfer failed for https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+    at org.apache.maven.wagon.providers.http.wagon.shared.AbstractHttpClientWagon.fillInputData (AbstractHttpClientWagon.java:1242)
+    at org.apache.maven.wagon.providers.http.wagon.shared.AbstractHttpClientWagon.fillInputData (AbstractHttpClientWagon.java:1138)
+    at org.apache.maven.wagon.StreamWagon.getInputStream (StreamWagon.java:126)
+    at org.apache.maven.wagon.StreamWagon.getIfNewer (StreamWagon.java:88)
+    at org.apache.maven.wagon.StreamWagon.get (StreamWagon.java:61)
+    at org.eclipse.aether.transport.wagon.WagonTransporter$GetTaskRunner.run (WagonTransporter.java:567)
+    at org.eclipse.aether.transport.wagon.WagonTransporter.execute (WagonTransporter.java:435)
+    at org.eclipse.aether.transport.wagon.WagonTransporter.get (WagonTransporter.java:412)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask (BasicRepositoryConnector.java:457)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run (BasicRepositoryConnector.java:364)
+    at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run (RunnableErrorForwarder.java:75)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute (BasicRepositoryConnector.java:644)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get (BasicRepositoryConnector.java:262)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:499)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:401)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:229)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:207)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:240)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:171)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.readArtifactDescriptor (DefaultRepositorySystem.java:255)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:106)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getPluginDescriptor (DefaultMavenPluginManager.java:182)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getMojoDescriptor (DefaultMavenPluginManager.java:286)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.getMojoDescriptor (DefaultBuildPluginManager.java:244)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.setupMojoExecution (DefaultLifecycleExecutionPlanCalculator.java:169)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.setupMojoExecutions (DefaultLifecycleExecutionPlanCalculator.java:154)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:130)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:144)
+    at org.apache.maven.lifecycle.internal.builder.BuilderCommon.resolveBuildPlan (BuilderCommon.java:97)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:111)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:497)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+Caused by: javax.net.ssl.SSLException: java.lang.RuntimeException: Unexpected error: java.security.InvalidAlgorithmParameterException: the trustAnchors parameter must be non-empty
+    at sun.security.ssl.Alerts.getSSLException (Alerts.java:214)
+    at sun.security.ssl.SSLSocketImpl.fatal (SSLSocketImpl.java:1958)
+    at sun.security.ssl.SSLSocketImpl.fatal (SSLSocketImpl.java:1915)
+    at sun.security.ssl.SSLSocketImpl.handleException (SSLSocketImpl.java:1898)
+    at sun.security.ssl.SSLSocketImpl.startHandshake (SSLSocketImpl.java:1419)
+    at sun.security.ssl.SSLSocketImpl.startHandshake (SSLSocketImpl.java:1396)
+    at org.apache.maven.wagon.providers.http.httpclient.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket (SSLConnectionSocketFactory.java:436)
+    at org.apache.maven.wagon.providers.http.httpclient.conn.ssl.SSLConnectionSocketFactory.connectSocket (SSLConnectionSocketFactory.java:384)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.conn.DefaultHttpClientConnectionOperator.connect (DefaultHttpClientConnectionOperator.java:142)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.conn.PoolingHttpClientConnectionManager.connect (PoolingHttpClientConnectionManager.java:374)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.execchain.MainClientExec.establishRoute (MainClientExec.java:393)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.execchain.MainClientExec.execute (MainClientExec.java:236)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.execchain.ProtocolExec.execute (ProtocolExec.java:186)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.execchain.RetryExec.execute (RetryExec.java:89)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.execchain.RedirectExec.execute (RedirectExec.java:110)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.client.InternalHttpClient.doExecute (InternalHttpClient.java:185)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.client.CloseableHttpClient.execute (CloseableHttpClient.java:83)
+    at org.apache.maven.wagon.providers.http.wagon.shared.AbstractHttpClientWagon.execute (AbstractHttpClientWagon.java:1002)
+    at org.apache.maven.wagon.providers.http.wagon.shared.AbstractHttpClientWagon.fillInputData (AbstractHttpClientWagon.java:1160)
+    at org.apache.maven.wagon.providers.http.wagon.shared.AbstractHttpClientWagon.fillInputData (AbstractHttpClientWagon.java:1138)
+    at org.apache.maven.wagon.StreamWagon.getInputStream (StreamWagon.java:126)
+    at org.apache.maven.wagon.StreamWagon.getIfNewer (StreamWagon.java:88)
+    at org.apache.maven.wagon.StreamWagon.get (StreamWagon.java:61)
+    at org.eclipse.aether.transport.wagon.WagonTransporter$GetTaskRunner.run (WagonTransporter.java:567)
+    at org.eclipse.aether.transport.wagon.WagonTransporter.execute (WagonTransporter.java:435)
+    at org.eclipse.aether.transport.wagon.WagonTransporter.get (WagonTransporter.java:412)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask (BasicRepositoryConnector.java:457)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run (BasicRepositoryConnector.java:364)
+    at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run (RunnableErrorForwarder.java:75)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute (BasicRepositoryConnector.java:644)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get (BasicRepositoryConnector.java:262)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:499)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:401)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:229)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:207)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:240)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:171)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.readArtifactDescriptor (DefaultRepositorySystem.java:255)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:106)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getPluginDescriptor (DefaultMavenPluginManager.java:182)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getMojoDescriptor (DefaultMavenPluginManager.java:286)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.getMojoDescriptor (DefaultBuildPluginManager.java:244)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.setupMojoExecution (DefaultLifecycleExecutionPlanCalculator.java:169)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.setupMojoExecutions (DefaultLifecycleExecutionPlanCalculator.java:154)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:130)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:144)
+    at org.apache.maven.lifecycle.internal.builder.BuilderCommon.resolveBuildPlan (BuilderCommon.java:97)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:111)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:497)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+Caused by: java.lang.RuntimeException: Unexpected error: java.security.InvalidAlgorithmParameterException: the trustAnchors parameter must be non-empty
+    at sun.security.validator.PKIXValidator.<init> (PKIXValidator.java:90)
+    at sun.security.validator.Validator.getInstance (Validator.java:179)
+    at sun.security.ssl.X509TrustManagerImpl.getValidator (X509TrustManagerImpl.java:312)
+    at sun.security.ssl.X509TrustManagerImpl.checkTrustedInit (X509TrustManagerImpl.java:171)
+    at sun.security.ssl.X509TrustManagerImpl.checkTrusted (X509TrustManagerImpl.java:184)
+    at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted (X509TrustManagerImpl.java:124)
+    at sun.security.ssl.ClientHandshaker.serverCertificate (ClientHandshaker.java:1508)
+    at sun.security.ssl.ClientHandshaker.processMessage (ClientHandshaker.java:215)
+    at sun.security.ssl.Handshaker.processLoop (Handshaker.java:1024)
+    at sun.security.ssl.Handshaker.process_record (Handshaker.java:954)
+    at sun.security.ssl.SSLSocketImpl.readRecord (SSLSocketImpl.java:1065)
+    at sun.security.ssl.SSLSocketImpl.performInitialHandshake (SSLSocketImpl.java:1384)
+    at sun.security.ssl.SSLSocketImpl.startHandshake (SSLSocketImpl.java:1412)
+    at sun.security.ssl.SSLSocketImpl.startHandshake (SSLSocketImpl.java:1396)
+    at org.apache.maven.wagon.providers.http.httpclient.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket (SSLConnectionSocketFactory.java:436)
+    at org.apache.maven.wagon.providers.http.httpclient.conn.ssl.SSLConnectionSocketFactory.connectSocket (SSLConnectionSocketFactory.java:384)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.conn.DefaultHttpClientConnectionOperator.connect (DefaultHttpClientConnectionOperator.java:142)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.conn.PoolingHttpClientConnectionManager.connect (PoolingHttpClientConnectionManager.java:374)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.execchain.MainClientExec.establishRoute (MainClientExec.java:393)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.execchain.MainClientExec.execute (MainClientExec.java:236)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.execchain.ProtocolExec.execute (ProtocolExec.java:186)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.execchain.RetryExec.execute (RetryExec.java:89)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.execchain.RedirectExec.execute (RedirectExec.java:110)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.client.InternalHttpClient.doExecute (InternalHttpClient.java:185)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.client.CloseableHttpClient.execute (CloseableHttpClient.java:83)
+    at org.apache.maven.wagon.providers.http.wagon.shared.AbstractHttpClientWagon.execute (AbstractHttpClientWagon.java:1002)
+    at org.apache.maven.wagon.providers.http.wagon.shared.AbstractHttpClientWagon.fillInputData (AbstractHttpClientWagon.java:1160)
+    at org.apache.maven.wagon.providers.http.wagon.shared.AbstractHttpClientWagon.fillInputData (AbstractHttpClientWagon.java:1138)
+    at org.apache.maven.wagon.StreamWagon.getInputStream (StreamWagon.java:126)
+    at org.apache.maven.wagon.StreamWagon.getIfNewer (StreamWagon.java:88)
+    at org.apache.maven.wagon.StreamWagon.get (StreamWagon.java:61)
+    at org.eclipse.aether.transport.wagon.WagonTransporter$GetTaskRunner.run (WagonTransporter.java:567)
+    at org.eclipse.aether.transport.wagon.WagonTransporter.execute (WagonTransporter.java:435)
+    at org.eclipse.aether.transport.wagon.WagonTransporter.get (WagonTransporter.java:412)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask (BasicRepositoryConnector.java:457)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run (BasicRepositoryConnector.java:364)
+    at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run (RunnableErrorForwarder.java:75)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute (BasicRepositoryConnector.java:644)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get (BasicRepositoryConnector.java:262)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:499)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:401)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:229)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:207)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:240)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:171)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.readArtifactDescriptor (DefaultRepositorySystem.java:255)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:106)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getPluginDescriptor (DefaultMavenPluginManager.java:182)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getMojoDescriptor (DefaultMavenPluginManager.java:286)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.getMojoDescriptor (DefaultBuildPluginManager.java:244)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.setupMojoExecution (DefaultLifecycleExecutionPlanCalculator.java:169)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.setupMojoExecutions (DefaultLifecycleExecutionPlanCalculator.java:154)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:130)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:144)
+    at org.apache.maven.lifecycle.internal.builder.BuilderCommon.resolveBuildPlan (BuilderCommon.java:97)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:111)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:497)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+Caused by: java.security.InvalidAlgorithmParameterException: the trustAnchors parameter must be non-empty
+    at java.security.cert.PKIXParameters.setTrustAnchors (PKIXParameters.java:200)
+    at java.security.cert.PKIXParameters.<init> (PKIXParameters.java:120)
+    at java.security.cert.PKIXBuilderParameters.<init> (PKIXBuilderParameters.java:104)
+    at sun.security.validator.PKIXValidator.<init> (PKIXValidator.java:88)
+    at sun.security.validator.Validator.getInstance (Validator.java:179)
+    at sun.security.ssl.X509TrustManagerImpl.getValidator (X509TrustManagerImpl.java:312)
+    at sun.security.ssl.X509TrustManagerImpl.checkTrustedInit (X509TrustManagerImpl.java:171)
+    at sun.security.ssl.X509TrustManagerImpl.checkTrusted (X509TrustManagerImpl.java:184)
+    at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted (X509TrustManagerImpl.java:124)
+    at sun.security.ssl.ClientHandshaker.serverCertificate (ClientHandshaker.java:1508)
+    at sun.security.ssl.ClientHandshaker.processMessage (ClientHandshaker.java:215)
+    at sun.security.ssl.Handshaker.processLoop (Handshaker.java:1024)
+    at sun.security.ssl.Handshaker.process_record (Handshaker.java:954)
+    at sun.security.ssl.SSLSocketImpl.readRecord (SSLSocketImpl.java:1065)
+    at sun.security.ssl.SSLSocketImpl.performInitialHandshake (SSLSocketImpl.java:1384)
+    at sun.security.ssl.SSLSocketImpl.startHandshake (SSLSocketImpl.java:1412)
+    at sun.security.ssl.SSLSocketImpl.startHandshake (SSLSocketImpl.java:1396)
+    at org.apache.maven.wagon.providers.http.httpclient.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket (SSLConnectionSocketFactory.java:436)
+    at org.apache.maven.wagon.providers.http.httpclient.conn.ssl.SSLConnectionSocketFactory.connectSocket (SSLConnectionSocketFactory.java:384)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.conn.DefaultHttpClientConnectionOperator.connect (DefaultHttpClientConnectionOperator.java:142)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.conn.PoolingHttpClientConnectionManager.connect (PoolingHttpClientConnectionManager.java:374)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.execchain.MainClientExec.establishRoute (MainClientExec.java:393)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.execchain.MainClientExec.execute (MainClientExec.java:236)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.execchain.ProtocolExec.execute (ProtocolExec.java:186)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.execchain.RetryExec.execute (RetryExec.java:89)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.execchain.RedirectExec.execute (RedirectExec.java:110)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.client.InternalHttpClient.doExecute (InternalHttpClient.java:185)
+    at org.apache.maven.wagon.providers.http.httpclient.impl.client.CloseableHttpClient.execute (CloseableHttpClient.java:83)
+    at org.apache.maven.wagon.providers.http.wagon.shared.AbstractHttpClientWagon.execute (AbstractHttpClientWagon.java:1002)
+    at org.apache.maven.wagon.providers.http.wagon.shared.AbstractHttpClientWagon.fillInputData (AbstractHttpClientWagon.java:1160)
+    at org.apache.maven.wagon.providers.http.wagon.shared.AbstractHttpClientWagon.fillInputData (AbstractHttpClientWagon.java:1138)
+    at org.apache.maven.wagon.StreamWagon.getInputStream (StreamWagon.java:126)
+    at org.apache.maven.wagon.StreamWagon.getIfNewer (StreamWagon.java:88)
+    at org.apache.maven.wagon.StreamWagon.get (StreamWagon.java:61)
+    at org.eclipse.aether.transport.wagon.WagonTransporter$GetTaskRunner.run (WagonTransporter.java:567)
+    at org.eclipse.aether.transport.wagon.WagonTransporter.execute (WagonTransporter.java:435)
+    at org.eclipse.aether.transport.wagon.WagonTransporter.get (WagonTransporter.java:412)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask (BasicRepositoryConnector.java:457)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run (BasicRepositoryConnector.java:364)
+    at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run (RunnableErrorForwarder.java:75)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute (BasicRepositoryConnector.java:644)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get (BasicRepositoryConnector.java:262)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:499)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:401)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:229)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:207)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:240)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:171)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.readArtifactDescriptor (DefaultRepositorySystem.java:255)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:106)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getPluginDescriptor (DefaultMavenPluginManager.java:182)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getMojoDescriptor (DefaultMavenPluginManager.java:286)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.getMojoDescriptor (DefaultBuildPluginManager.java:244)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.setupMojoExecution (DefaultLifecycleExecutionPlanCalculator.java:169)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.setupMojoExecutions (DefaultLifecycleExecutionPlanCalculator.java:154)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:130)
+    at org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator.calculateExecutionPlan (DefaultLifecycleExecutionPlanCalculator.java:144)
+    at org.apache.maven.lifecycle.internal.builder.BuilderCommon.resolveBuildPlan (BuilderCommon.java:97)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:111)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:497)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException
+[Pipeline] }
+[Pipeline] // withEnv
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // withEnv
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE
