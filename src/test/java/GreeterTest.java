@@ -7,7 +7,7 @@ import org.junit.Test;
 
 public class GreeterTest {
 
-  private Greeter greeter = new Greeter();
+  private final Greeter greeter = new Greeter();
 
   @Test
   public void greeterSaysHello() {
