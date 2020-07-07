@@ -1,7 +1,5 @@
 package hello;
-
 import org.joda.time.LocalTime;
-
 import thanks.Thanks;
 
 public class HelloWorld {
