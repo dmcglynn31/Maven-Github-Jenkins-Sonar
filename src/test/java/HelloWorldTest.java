@@ -14,7 +14,6 @@ public class HelloWorldTest {
   try {
     assertThat(thanks.sayThanks(), containsString("Thanks!"));
   } catch (Exception e) {
-    System.out.println("There's a missing string in the message");
     e.printStackTrace();
   }  
   }
