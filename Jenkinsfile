@@ -28,7 +28,7 @@ def notifyFailure = false
             echo "Build server clean!"
         }
 
-        stage('Clone from Remote')
+        stage('Clone from Remote'){
             echo "Cloned from " + $repoURL
         }
 
