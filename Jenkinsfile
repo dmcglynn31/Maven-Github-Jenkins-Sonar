@@ -24,8 +24,6 @@ def notifyFailure = false
 //local function definitions
 
 //pipeline definition
-node () {
-
         stage('Clean Environment'){
             echo "Build server clean!"
         }
@@ -48,5 +46,4 @@ node () {
 
         stage('Deploy'){
             echo "Deploying to Environment..."
-        } 
-}
+        }
