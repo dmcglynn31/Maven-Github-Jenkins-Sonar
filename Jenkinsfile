@@ -30,17 +30,15 @@ node () {
                 try {
                     echo "Build server clean!"
                 }
-                catch (
-                    prepareFailure = true;
-                    throw err
+                catch (err) (
+                   throw err
                 )
         }
         stage('Clone from Remote')
                 try {
                    echo "Cloned from " + $repoURL
                 }
-                catch (
-                    cloneFailure = true;
+                catch (err) (
                     throw err
                 )
         }
@@ -48,8 +46,7 @@ node () {
             try {
               echo "Don't need this yet!"
             }
-            catch (
-                    checkOutFailure = true;
+            catch (err) (
                     throw err
                 )
         }
@@ -63,8 +60,7 @@ node () {
             try {
                 echo "Deploying to Environment..."
             }
-            catch (
-                deployFailure = true;
+            catch (err) (
                 throw err
             )
         }
