@@ -32,7 +32,7 @@ node () {
                 }
                 catch (err) {
                    throw err
-                )
+                }
         }
         stage('Clone from Remote')
                 try {
