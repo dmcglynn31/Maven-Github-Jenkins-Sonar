@@ -25,62 +25,28 @@ def notifyFailure = false
 
 //pipeline definition
 node () {
-    try {
+
         stage('Clean Environment'){
-                try {
-                    echo "Build server clean!"
-                }
-                catch (err) {
-                   throw err
-                }
+            echo "Build server clean!"
         }
+
         stage('Clone from Remote')
-                try {
-                   echo "Cloned from " + $repoURL
-                }
-                catch (err) {
-                    throw err
-                }
+            echo "Cloned from " + $repoURL
         }
+
         stage('Checkout Code') {
-            try {
-              echo "Don't need this yet!"
-            }
-            catch (err) {
-                    throw err
-            }
+            echo "Don't need to check out code yet!"
         }
+
         stage('Build'){
            echo "Build success!"
         }
+
         stage('Test'){
             echo "Test here!"
         }
-        stage('Deploy'){
-            try {
-                echo "Deploying to Environment..."
-            }
-            catch (err) {
-                throw err
-            }
-        }
 
-    } catch (err)(
-        if (prepareFailure) {
-            echo "Prepare Failure"
-        } else if (cloneFailure) {
-            echo "Clone Failure"
-        } else if (checkOutFailure) {
-            echo "Check Out Failure"
-        } else if (buildFailure) {
-            echo "Build Failure"
-        } else if (testFailure) {
-            echo "Test Failure"
-        } else if (deployFailure) {
-            echo "Deploy Failure"
-        } else {
-            echo "Generic Failure - Investigate!"
-        }
-    )
-    }   
+        stage('Deploy'){
+            echo "Deploying to Environment..."
+        } 
 }
