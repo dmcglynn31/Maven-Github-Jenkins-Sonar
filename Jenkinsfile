@@ -30,7 +30,7 @@ node () {
                 try {
                     echo "Build server clean!"
                 }
-                catch (err) (
+                catch (err) {
                    throw err
                 )
         }
@@ -38,17 +38,17 @@ node () {
                 try {
                    echo "Cloned from " + $repoURL
                 }
-                catch (err) (
+                catch (err) {
                     throw err
-                )
+                }
         }
         stage('Checkout Code') {
             try {
               echo "Don't need this yet!"
             }
-            catch (err) (
+            catch (err) {
                     throw err
-                )
+            }
         }
         stage('Build'){
            echo "Build success!"
@@ -60,9 +60,9 @@ node () {
             try {
                 echo "Deploying to Environment..."
             }
-            catch (err) (
+            catch (err) {
                 throw err
-            )
+            }
         }
 
     } catch (err)(
